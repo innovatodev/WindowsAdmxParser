@@ -1,0 +1,15 @@
+name: publish
+
+on:
+    workflow_dispatch:
+jobs:
+   publish:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: publish
+        env:
+            PSGALLERY_KEY: ${{ secrets.PSGALLERY_KEY }}
+        shell: powershell
+        run: |
+          .\Publish.ps1
