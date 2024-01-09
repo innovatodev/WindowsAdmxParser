@@ -20,3 +20,9 @@ $Policies | ConvertTo-Json -Depth 100 | Out-File "$env:USERPROFILE\Downloads\All
 ```
 
 Parses local computer's Definitions, ignoring "Internet Explorer" policies and then export them to JSON inside of user's Downloads folder.
+
+<div align="center">
+
+![showcase1](media/showcase1.png)
+
+</div>
