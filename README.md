@@ -2,6 +2,8 @@
 
 Module to parse Admx Policies Settings from a given PolicyDefinitions folder.
 
+It automatically uses found languages (en-GB, fr-FR, etc.), and fallbacks to en-US when necessary.
+
 ## HowTo
 
 Install it:
